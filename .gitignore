@@ -1,0 +1,10 @@
+# Ignore all plain Kubernetes Secrets
+secret*.yaml
+
+# Ignore any sensitive files containing secrets or configurations
+*.env
+*.key
+*.pem
+
+# Ignore any files with raw credentials or sensitive data
+credentials
